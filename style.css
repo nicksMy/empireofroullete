@@ -1,3 +1,7 @@
+body {
+    background-color: #3a9785;
+}
+
 .header {
     padding: 10px;
     text-align: center;
@@ -6,11 +10,25 @@
     font-size: 30px;
   }
 
-  .navBar {
-      display: block;
-      padding: 10px;
-      text-align: center;
-      background: #0f6352;
-      color: white;
-      font-size: 20px;
-  }
+.navBar {
+    width: 100%;
+    background-color: #0f6352;
+    overflow: auto;
+}
+
+.navBar a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.navBar a:hover {
+    background-color: #093f34;
+}
+
+.navBar a.active {
+    background-color: #83d1c2;
+} 
