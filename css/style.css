@@ -8,7 +8,7 @@ body {
     background: #1abc9c;
     color: white;
     font-size: 30px;
-  }
+}
 
 .navBar {
     width: 100%;
@@ -31,4 +31,13 @@ body {
 
 .navBar a.active {
     background-color: #83d1c2;
-} 
+}
+
+.login {
+    text-align: center;
+}
+
+.login label {
+    color: white;
+    font-size: 25px;
+}
