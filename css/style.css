@@ -21,7 +21,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
 
@@ -33,11 +33,17 @@ body {
     background-color: #83d1c2;
 }
 
-.login {
-    text-align: center;
-}
-
-.login label {
+.div-table {
     color: white;
-    font-size: 25px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;                    
+    width: 50%;
+}
+  .div-table-row {
+    display: block;
+}
+  .div-table-col {
+    display: block;              
 }

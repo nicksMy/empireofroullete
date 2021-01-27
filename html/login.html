@@ -12,20 +12,48 @@
 </div>
 <nav class="navBar">
     <a class="active" href="index.html">HOME</a>
+    <a href="bet.html">BET</a>
     <a href="#">LOG IN / SIGN UP</a>
     <a href="faq.html">FAQ</a>
     <a href="about.html">ABOUT US</a>
 </nav>
 
-<div class="login">
-    <form>
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br>
+<table>
+    <tr>
+        <form id="form-login">
+            <div class="div-table">
+                <div class="div-row">
+                    <div class="div-col"><label for="username">Username:</label><br></div>
+                    <div class="div-col"><input type="text" id="username" name="username" placeholder="Your username or email"><br></div>
 
-        <label for="passwd">Password:</label><br>
-        <input type="password" id="passwd" name="passwd">
-    </form>
-</div>
+                    <div class="div-col"><label for="passwd">Password:</label><br></div>
+                    <div class="div-col"><input type="password" id="passwd" name="passwd" placeholder="Password"><br></div>
+                    <div class="div-col"><input type="submit" value="Login"></div>
+                </div>
+            </div>
+        </form>
+    </tr>
+    <tr>
+        <form id="form-register">
+            <div class="div-table">
+                <div class="div-row">
+                    <div class="div-col"><label for="username">Username:</label><br></div>
+                    <div class="div-col"><input type="text" id="username" name="username" placeholder="Your username"><br></div>
+
+                    <div class="div-col"><label for="email">Email:</label><br></div>
+                    <div class="div-col"><input type="email" id="email" name="email" placeholder="Your email address"><br></div>
+
+                    <div class="div-col"><label for="passwd">Password:</label><br></div>
+                    <div class="div-col"><input type="password" id="passwd" name="passwd" placeholder="Password"><br></div>
+
+                    <div class="div-col"><label for="passwd">Confirm:</label><br></div>
+                    <div class="div-col"><input type="password" id="passwd" name="passwd" placeholder="Confirm your password"><br></div>
+                    <div class="div-col"><input type="submit" value="Register"></div>
+                </div>
+            </div>
+        </form>
+    </tr>
+</table>
 
 </body>
 </html>
