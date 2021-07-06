@@ -1,11 +1,11 @@
 body {
-    background-color: #3a9785;
+    background-color: #5a8078;
 }
 
 .header {
     padding: 10px;
     text-align: center;
-    background: #1abc9c;
+    background: #2f695d;
     color: white;
     font-size: 30px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .navBar a.active {
-    background-color: #83d1c2;
+    background-color: #6dbdab;
 }
 
 table {
