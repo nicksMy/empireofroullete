@@ -1,11 +1,11 @@
 body {
-    background-color: #5a8078;
+    background-color: #212c29;
 }
 
 .header {
     padding: 10px;
     text-align: center;
-    background: #2f695d;
+    background: #152e29;
     color: white;
     font-size: 30px;
 }
@@ -30,7 +30,15 @@ body {
 }
 
 .navBar a.active {
-    background-color: #6dbdab;
+    background-color: #354b46;
+}
+
+.pageBody {
+    padding: 10px;
+    text-align: center;
+    background: #152e29;
+    color: white;
+    font-size: 30px;
 }
 
 table {
@@ -47,12 +55,4 @@ th {
     width: 100%;
     padding-top: 4px;
     padding-bottom: 4px;
-}
-
-table.form-login {
-    margin-left: 20%;
-}
-
-table.form-register {
-    margin-left: 20%;
 }
