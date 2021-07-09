@@ -1,24 +1,29 @@
-body {
-    background-color: #212c29;
+@font-face {
+    font-family: 'Consolas', monospace;
+}
+
+body, button {
+    background-color: #170064;
+    font-family: 'Consolas', monospace;
 }
 
 .header {
     padding: 10px;
     text-align: center;
-    background: #152e29;
-    color: white;
+    background: #240090;
+    color: rgb(160, 155, 226);
     font-size: 30px;
 }
 
 .navBar {
     width: 100%;
-    background-color: #0f6352;
+    background-color: #190061;
     overflow: auto;
 }
 
 .navBar a {
     float: left;
-    color: white;
+    color: rgb(160, 155, 226);
     text-decoration: none;
     font-size: 20px;
     width: 20%;
@@ -26,33 +31,49 @@ body {
 }
 
 .navBar a:hover {
-    background-color: #093f34;
+    background-color: #282828;
 }
 
 .navBar a.active {
-    background-color: #354b46;
+    background-color: #3200d3;
 }
 
 .pageBody {
     padding: 10px;
     text-align: center;
-    background: #152e29;
-    color: white;
-    font-size: 30px;
+    background: #240090;
+    color: rgb(160, 155, 226);
+    font-size: 20px;
+    height: 600px;
+}
+
+.pageBody button {
+    background: #190061;
+}
+
+.pageBody button:hover {
+    background-color: #282828;
 }
 
 table {
-    float: left;
     display: inline-block;
-    border: 1px solid #ddd;
+    border: 5px solid #190061;
     margin-top: 20px;
-    width: 20%;
+    margin-right: 5%;
+    width: 25%;
 }
 
 th {
     float: left;
     display: block;
     width: 100%;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 2%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
 }
