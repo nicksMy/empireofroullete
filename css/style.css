@@ -55,25 +55,23 @@ body, button {
     background-color: #282828;
 }
 
-table {
+form {
     display: inline-block;
     border: 5px solid #190061;
     margin-top: 20px;
     margin-right: 5%;
     width: 25%;
-}
-
-th {
-    float: left;
-    display: block;
-    width: 100%;
     padding: 2%;
 }
 
-h1 {
-    color: white;
+label {
+    font-size: 20px;
 }
 
-h2 {
+input {
+    margin: 4%;
+}
+
+h1, h2 {
     color: white;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
     <title>Free Casino</title>
 </head>
@@ -16,34 +17,30 @@
     <a href="about.html">SOBRE NÓS</a>
 </nav>
 <div class="pageBody">
-    <table class="form-login">
-        <tr>
-            <th><p style="font-size: 30px; color: white;">Entrar</p></th>
-            <th><label for="username">Usuário:</label><br></th>
-            <th><input type="text" id="username" name="username" placeholder="seu usuário ou email"><br></th>
+    <form>
+        <p style="font-size: 30px; color: white;">Entrar</p></th>
+        <label for="email">Email:</label><br></th>
+        <input type="email" id="email" placeholder="digite seu email" oninvalid="alert('Email ou senha invalido!');" required><br></th>
 
-            <th><label for="passwd">Senha:</label><br></th>
-            <th><input type="password" id="passwd" name="passwd" placeholder="sua senha"><br></th>
-            <th><button type="submit">Logar</button></th>
-        </tr>
-    </table>
-    <table class="form-register">
-        <tr> 
-            <th><p style="font-size: 30px; color: white;">Registrar</p></th>
-            <th><label for="username">Usuário:</label><br></th>
-            <th><input type="text" id="username" name="username" placeholder="insira seu Usuário"><br></th>
+        <label for="passwd">Senha:</label><br>
+        <input type="password" id="password" placeholder="digite sua senha" oninvalid="alert('Email ou senha invalido!');" required><br>
+        <button type="submit">Logar</button>
+    </form>
+    <form>
+        <p style="font-size: 30px; color: white;">Registrar</p>
+        <label for="username">Usuário:</label><br>
+        <input type="text" id="username" placeholder="insira seu Usuário" required><br>
 
-            <th><label for="email">Email:</label><br></th>
-            <th><input type="email" id="email" name="email" placeholder="insira seu endereço email"><br></th>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="insira seu endereço email" required><br>
 
-            <th><label for="passwd">Senha:</label><br></th>
-            <th><input type="password" id="passwd" name="passwd" placeholder="insira sua senha"><br></th>
-
-            <th><label for="passwd">Confirme sua senha:</label><br></th>
-            <th><input type="password" id="passwd" name="passwd" placeholder="confirme sua senha"><br></th>
-            <th><button type="submit">Registrar</button></th>
-        </tr>
-    </table>
+        <label for="passwd">Senha:</label><br>
+        <input type="password" id="password" placeholder="insira sua senha" required><br>
+        
+        <label for="passwd">Confirme sua senha:</label><br>
+        <input type="password" id="confirm_password" placeholder="confirme sua senha" required><br>
+        <button type="submit">Registrar</button>
+    </form>
 </div>
 </body>
 </html>
