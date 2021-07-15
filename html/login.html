@@ -6,15 +6,18 @@
     <title>Free Casino</title>
 </head>
 <body>
-<div class="header">
-    <h1>Emperio da Roleta</h1>
-</div>
+    <div class="header">
+        <fieldset>
+            <legend><h1>Emperio da Roleta</h1></legend>
+        </fieldset>
+    </div>
+
 <nav class="navBar">
     <a class="active" href="index.html">MENU</a>
-    <a href="bet.html">APOSTA</a>
-    <a href="#">ENTRAR / CRIAR CONTA</a>
+    <a href="roulette.html">ROULETTE</a>
+    <a href="coinflip.html">COINFLIP</a>
+    <a href="crash.html">CRASH</a>
     <a href="faq.html">FAQ</a>
-    <a href="about.html">SOBRE NÓS</a>
 </nav>
 <div class="pageBody">
     <form>
@@ -24,7 +27,7 @@
 
         <label for="passwd">Senha:</label><br>
         <input type="password" id="password" placeholder="digite sua senha" oninvalid="alert('Email ou senha invalido!');" required><br>
-        <button type="submit">Logar</button>
+        <button class="loginbtn" type="submit">Logar</button>
     </form>
     <form>
         <p style="font-size: 30px; color: white;">Registrar</p>
@@ -39,7 +42,7 @@
         
         <label for="passwd">Confirme sua senha:</label><br>
         <input type="password" id="confirm_password" placeholder="confirme sua senha" required><br>
-        <button type="submit">Registrar</button>
+        <button class="loginbtn" type="submit">Registrar</button>
     </form>
 </div>
 </body>

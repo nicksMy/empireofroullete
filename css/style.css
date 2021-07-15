@@ -17,7 +17,7 @@ body, button {
 
 .navBar {
     width: 100%;
-    background-color: #190061;
+    background-color: #3200d3;
     overflow: auto;
 }
 
@@ -35,7 +35,11 @@ body, button {
 }
 
 .navBar a.active {
-    background-color: #3200d3;
+    background-color: #190061;
+}
+
+.navBar a.active:hover {
+    background-color: #282828;
 }
 
 .pageBody {
@@ -47,12 +51,15 @@ body, button {
     height: 600px;
 }
 
-.pageBody button {
-    background: #190061;
+button.loginbtn {
+    background-color: #190061;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.pageBody button:hover {
-    background-color: #282828;
+button.loginbtn:hover {
+    background-color: #282828
 }
 
 form {
@@ -62,6 +69,29 @@ form {
     margin-right: 5%;
     width: 25%;
     padding: 2%;
+}
+
+button.login_form {
+    background-color: #190061;
+    border: none;
+    text-decoration: none;
+    padding: 20px;
+}
+
+button.login_form:hover {
+    background-color: #282828;
+}
+
+button {
+    color: rgb(160, 155, 226);
+}
+
+legend {
+    padding: 5px 10px;
+}
+
+fieldset {
+    border: 5px solid #190061
 }
 
 label {
