@@ -49,7 +49,7 @@ body, button {
     background: #240090;
     color: rgb(160, 155, 226);
     font-size: 20px;
-    height: 600px;
+    height: 100%;
 }
 
 button.loginbtn {
@@ -72,7 +72,7 @@ form {
     padding: 2%;
 }
 
-button.login_form {
+button.login_form, button.profile {
     background-color: #190061;
     border: none;
     margin-bottom: 2%;
@@ -80,7 +80,7 @@ button.login_form {
     padding: 20px;
 }
 
-button.login_form:hover {
+button.login_form:hover, button.profile:hover {
     background-color: #282828;
 }
 
@@ -88,12 +88,18 @@ button {
     color: rgb(160, 155, 226);
 }
 
+div.profileInfos {
+    border: 5px solid #190061;
+    float: left;
+    text-align: left;
+}
+
 legend {
     padding: 5px 10px;
 }
 
 fieldset {
-    border: 5px solid #190061
+    border: 5px solid #190061;
 }
 
 label {
