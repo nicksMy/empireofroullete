@@ -36,7 +36,7 @@ body, button {
     text-align: center;
 }
 
-.navBar a:hover {
+.navBar a:hover, .navBar a.active:hover {
     background-color: #282828;
 }
 
@@ -44,8 +44,10 @@ body, button {
     background-color: #190061;
 }
 
-.navBar a.active:hover {
-    background-color: #282828;
+nav.profileInfos {
+    border: 5px solid #190061;
+    float: left;
+    text-align: left;
 }
 
 .pageBody {
@@ -64,17 +66,15 @@ button.loginbtn {
     padding: 10px;
 }
 
-button.loginbtn:hover {
-    background-color: #282828
+button.infos {
+    background-color: #240090;
+    border: none;
+    text-decoration: none;
+    font-size: large;
 }
 
-form {
-    display: inline-block;
-    border: 5px solid #190061;
-    margin-top: 20px;
-    margin-right: 5%;
-    width: 25%;
-    padding: 2%;
+button.infos:hover {
+    color: #282828;
 }
 
 button.login_form, button.profile {
@@ -85,7 +85,7 @@ button.login_form, button.profile {
     padding: 20px;
 }
 
-button.login_form:hover, button.profile:hover {
+button.login_form:hover, button.profile:hover, button.loginbtn:hover {
     background-color: #282828;
 }
 
@@ -93,10 +93,14 @@ button {
     color: rgb(160, 155, 226);
 }
 
-div.profileInfos {
+form {
+    display: inline-block;
     border: 5px solid #190061;
-    float: left;
-    text-align: left;
+    margin-top: 20px;
+    margin-right: 5%;
+    vertical-align: top;
+    width: 25%;
+    padding: 2%;
 }
 
 legend {
