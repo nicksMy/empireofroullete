@@ -23,28 +23,32 @@
 
 <div class="pageBody">
     <form>
-        <h1>Entrar</h1></th>
-        <label for="email">Email:</label><br></th>
-        <input type="email" id="email" placeholder="digite seu email" oninvalid="alert('Email ou senha invalido!');" required><br></th>
+        <fieldset>
+            <legend><h1>Entrar</h1></legend>
+            <label for="email">Email:</label><br></th>
+            <input type="email" id="email" placeholder="digite seu email" oninvalid="alert('Email ou senha invalido!');" required><br></th>
 
-        <label for="passwd">Senha:</label><br>
-        <input type="password" id="password" placeholder="digite sua senha" oninvalid="alert('Email ou senha invalido!');" required><br>
-        <button class="loginbtn" type="submit">Logar</button>
+            <label for="passwd">Senha:</label><br>
+            <input type="password" id="password" placeholder="digite sua senha" oninvalid="alert('Email ou senha invalido!');" required><br>
+            <button class="loginbtn" type="submit">Logar</button>
+        </fieldset>
     </form>
     <form>
-        <h1>Registrar</h1>
-        <label for="username">Usuário:</label><br>
-        <input type="text" id="username" placeholder="insira seu Usuário" required><br>
+        <fieldset>
+            <legend><h1>Registrar</h1></legend>
+            <label for="username">Usuário:</label><br>
+            <input type="text" id="username" placeholder="insira seu Usuário" required><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" placeholder="insira seu endereço email" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="insira seu endereço email" required><br>
 
-        <label for="passwd">Senha:</label><br>
-        <input type="password" id="password" placeholder="insira sua senha" required><br>
-        
-        <label for="passwd">Confirme sua senha:</label><br>
-        <input type="password" id="confirm_password" placeholder="confirme sua senha" required><br>
-        <button class="loginbtn" type="submit">Registrar</button>
+            <label for="passwd">Senha:</label><br>
+            <input type="password" id="password" placeholder="insira sua senha" required><br>
+            
+            <label for="passwd">Confirme sua senha:</label><br>
+            <input type="password" id="confirm_password" placeholder="confirme sua senha" required><br>
+            <button class="loginbtn" type="submit">Registrar</button>
+        </fieldset>
     </form>
 </div>
 </body>

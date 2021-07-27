@@ -85,7 +85,7 @@ button.login_form, button.profile {
     padding: 20px;
 }
 
-button.login_form:hover, button.profile:hover, button.loginbtn:hover {
+button.login_form:hover, button.profile:hover, button.loginbtn:hover, button.flip:hover {
     background-color: #282828;
 }
 
@@ -95,19 +95,31 @@ button {
 
 form {
     display: inline-block;
-    border: 5px solid #190061;
-    margin-top: 20px;
-    margin-right: 5%;
     vertical-align: top;
-    width: 25%;
     padding: 2%;
 }
 
+div.flipers {
+    background-color: #3200d3;
+    display: inline-block;
+    padding: 2px;
+    width: 20%;
+}
+
+button.flip {
+    background-color: #190061;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    margin: 2%;
+}
+
 legend {
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 
 fieldset {
+    display: inline-block;
     border: 5px solid #190061;
 }
 
@@ -120,5 +132,10 @@ input {
 }
 
 h1, h2 {
+    padding: 2px;
     color: white;
+}
+
+p {
+    padding: 5px;
 }
