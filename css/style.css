@@ -45,9 +45,11 @@ body, button {
 }
 
 nav.profileInfos {
+    text-align: left;
+    overflow: hidden;
+    padding: 2%;
     border: 5px solid #190061;
     float: left;
-    text-align: left;
 }
 
 .pageBody {
@@ -68,9 +70,10 @@ button.loginbtn {
 
 button.infos {
     background-color: #240090;
-    border: none;
     text-decoration: none;
     font-size: large;
+    padding: 10%;
+    border: none;
 }
 
 button.infos:hover {

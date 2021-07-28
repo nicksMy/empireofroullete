@@ -5,7 +5,6 @@
     <title>Free Casino</title>
 </head>
 <body>
-
 <div class="header">
     <fieldset>
         <legend><h1>Imperio da Roleta</h1></legend>
@@ -19,22 +18,24 @@
         </nav>
     </fieldset>
 </div>
-
 <div class="pageBody">
     <fieldset>
         <legend><h1>Seu perfil</h1></legend>
         <p>Não divida sua senha ou informações pessoais com os outros do site.</p>
-
         <div>
             <nav class="profileInfos">
-                <button class="infos">Minhas informações</button><p></p>
-                <button class="infos">Editar perfil</button><p></p>
-                <button class="infos">Segurança</button><p></p>
-                <button class="infos">Resgatar</button>
+                <script src="../js/script.js"></script>
+                <button class="infos" onclick="changeDisplay('info')">Informações</button><br>
+                <button class="infos" onclick="changeDisplay('edit')">Editar</button><br>
+                <button class="infos" onclick="changeDisplay('rescue')">Resgatar</button><br>
             </nav>
+        </div>
+        <div>
+            <p hidden id="info">Olá galerinha</p>
+            <p hidden id="edit">Edita galerinha</p>
+            <p hidden id="rescue">Resgata galerinha</p>
         </div>
     </fieldset>
 </div>
-
 </body>
 </html>
