@@ -1,3 +1,10 @@
 function changeDisplay(x) {
-    document.getElementById(x).style.display = "block";
+    var myX = document.getElementById(x);
+    var myXSetting = myX.style.display;
+
+    if (myXSetting == "block") {
+        myX.style.display = "none";
+    } else {
+        myX.style.display = "block";
+    }
 }
